@@ -56,6 +56,9 @@
                                 <state key="normal" title="Calculate">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3D8-Tv-rkg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -72,6 +75,11 @@
                             <constraint firstItem="yBb-fT-tBN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="z9y-GB-OS2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="andwerOutlet" destination="yBb-fT-tBN" id="cZF-aB-Mof"/>
+                        <outlet property="number1Outlet" destination="wkd-Ue-KkL" id="uWf-WA-wqa"/>
+                        <outlet property="number2Outlet" destination="0aj-A2-QNC" id="dPy-Dx-Xsy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
